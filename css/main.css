@@ -1,0 +1,275 @@
+* {
+	box-sizing: border-box;
+}
+
+
+header {
+	height: 525px;
+	width: 100%;
+	background: url(../img/backgroundfinal.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	padding-top: 170px;
+}
+
+ h1 {
+	font-size: 48px;
+	font-family: 'Montserrat', helvetica, arial, sans-serif;
+	color:white; 
+	text-transform: uppercase;
+	width: 460px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+header h2{
+	width: 700px;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin: auto;
+	margin-top: 42px;
+	color: white;
+
+}
+
+article h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'teko';
+	font-weight: 300;
+}
+ article img{
+ 	display: block;
+
+ 	width: 70px;
+ 	margin-top: -35px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	border-radius: 50%;
+ }
+
+ article p {
+ 	text-align: center;
+ 	color: #f63c3c;
+ 	font-size: 18px;
+ 	font-family: 'teko', helvetica, arial, sans-serif;
+ 	font-weight: 300;
+ }
+ 
+ time {
+ 	font-family: 'Teko', helvetica, arial,sans-serif;
+ 	font-size: 18px;
+ 	font-weight: 300;
+ 	margin-top: 10px;
+ 	display: block;
+ 	text-align: center;
+ 	margin-bottom: 94px;
+ }
+
+
+
+.content{
+	width: 580px;
+	margin: 0 auto;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	font-size: 18px;
+	color: #818181;
+	line-height: 27px;
+}
+
+
+
+.content li {
+	list-style-type: disc;
+	margin-left: 20px;
+
+
+
+}
+
+a {
+	color: #818181;
+
+}
+
+main p{
+
+	width: 580px;
+	margin: 0 auto;
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	margin-bottom: 46px;
+	line-height: 25px;
+
+}
+
+
+
+.comment {
+	width: 580px;
+	margin: 0 auto;
+}
+
+.comment h3{
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	margin-bottom: 20px;
+	font-size: 30px;
+	margin-top: 68px;
+}
+
+.comment input {
+	height: 50px;
+	width: 570px;
+	padding-left: 22px;
+	padding-top: 2px;
+	display: inline-block; 
+	margin-bottom: 13px;
+	font-size: 14px;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	border: 1px solid grey;
+}
+
+textarea {
+	width: 570px;
+	height: 240px;
+	padding-left: 22px;
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+}
+
+button{
+	background-color: #f63c3c;
+	text-align: 'center';
+	width: 131px;
+	height: 53px;
+	border: none;
+	color: #FFF;
+	font-size: 18px;
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	margin-top: 14px;
+	margin-bottom: 113px;
+}
+
+
+aside h4{
+	font-size: 20px;
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+aside p{
+	font-size: 16px;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	color: #adadad;
+	text-align: center;
+	margin-top: 23px;
+	margin-bottom: 30px;
+}
+
+
+
+.social {
+	width: 1200px;
+	margin: 0 auto;
+}
+.social li{
+	float: left;
+	border: 1.5px solid grey;
+	margin-left: 30px;
+	width: 269px;
+	height: 47px;
+	text-align: center;
+	padding: 13px;
+	margin-bottom: 35px;	
+}
+ 
+.social a{
+	text-transform: center;
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	text-decoration: none;
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.bottomnav h3 {
+	color: #b5aeac;
+	font-size: 30px;
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	margin-bottom: 31px;
+	
+	text-transform: uppercase;
+}
+
+.bottomnav h2 {
+	color: #FFF;
+	font-size: 40px;
+	font-family: 'Teko', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	margin-right: 59px;
+}
+
+
+.previous {
+	padding-top: 50px;
+	padding-left: 50px;
+	float: left;
+	width: 50%;
+	height: 310px;
+	background: url(../img/bottomleft.jpg);
+}
+
+.next{
+	padding-top: 50px;
+	padding-left: 50px;
+	float: left;
+	width: 50%;
+	height: 310px;
+	background: url(../img/bottomright.jpg);
+}
+
+.copy{
+	margin-left: 252px;
+	width: 50%;
+}
+
+
+footer p {
+	float: left;
+	margin-bottom: 44px;
+	margin-top: 25px;
+	
+}
+
+footer ol{
+	float: right;
+}
+
+footer li{
+	float: left;
+	margin-right: 25px;
+	text-decoration: none;
+	margin-top: 25px;
+	list-style-type: none;
+}
+
